@@ -76,4 +76,4 @@ class BinarySearchTreePhoneBook(PhoneBook):
                 current_node = current_node.left
             else:
                 current_node = current_node.right
-        return current_node.phone if current_node else -1
+        return current_node.phone_number if current_node else -1
