@@ -18,13 +18,13 @@ class BinarySearchTree:
         while True:
             if key < current_node.val:
                 if not current_node.left:
-                    self.root.left = self.Node(key)
+                    current_node.left = self.Node(key)
                     return
                 else:
                     current_node = current_node.left
             else:
                 if not current_node.right:
-                    self.root.right = self.Node(key)
+                    current_node.right = self.Node(key)
                     return
                 else:
                     current_node = current_node.right
@@ -36,5 +36,3 @@ class BinarySearchTree:
             if key < current_node.val: current_node = current_node.left
             else: current_node = current_node.right
         return bool(current_node)
-
-
