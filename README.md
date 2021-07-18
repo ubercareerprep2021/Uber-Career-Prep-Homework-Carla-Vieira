@@ -15,7 +15,7 @@
   - [Tests](https://github.com/ubercareerprep2021/Uber-Career-Prep-Homework-Carla-Vieira/tree/master/Assignment-2/tests)
   
 
-- [ ] [Assignment-3](https://github.com/ubercareerprep2021/Uber-Career-Prep-Homework-Carla-Vieira/blob/master/Assignment-3)
-  - [ ] [Sorting](https://github.com/ubercareerprep2021/Uber-Career-Prep-Homework-Carla-Vieira/tree/master/Assignment-3/sorting)
-  - [ ] [Searching](https://github.com/ubercareerprep2021/Uber-Career-Prep-Homework-Carla-Vieira/tree/master/Assignment-3/searching)
+- [x] [Assignment-3](https://github.com/ubercareerprep2021/Uber-Career-Prep-Homework-Carla-Vieira/blob/master/Assignment-3)
+  - [x] [Sorting](https://github.com/ubercareerprep2021/Uber-Career-Prep-Homework-Carla-Vieira/tree/master/Assignment-3/sorting)
+  - [x] [Searching](https://github.com/ubercareerprep2021/Uber-Career-Prep-Homework-Carla-Vieira/tree/master/Assignment-3/searching)
   - [Tests](https://github.com/ubercareerprep2021/Uber-Career-Prep-Homework-Carla-Vieira/tree/master/Assignment-3/tests)
