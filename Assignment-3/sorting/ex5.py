@@ -9,3 +9,22 @@ Example
 Input: [5, 3, 1, 2, 3]
 Output: [5, 1, 3, 2, 3]
 """
+
+def sort_peaks_and_valleys(arr):
+    for i in range(1, len(arr)-1):
+
+        if arr[i-1] > arr[i]:        # in case previous number is bigger than current
+            if arr[i+1] < arr[i]:    # in case next number is smaller than current (so it is wrong and we should change current with next)
+                arr[i], arr[i+1] = arr[i+1], arr[i]
+
+        else:                        # in case previous number is smaller than current
+            if arr[i+1] > arr[i]:    # in case next number is bigger than current (so it is wrong and we should change current with next)
+                arr[i], arr[i+1] = arr[i+1], arr[i]
+
+    return arr
+
+
+# Time Complexity
+# O(n)
+# Space Complexity
+# O(1)
