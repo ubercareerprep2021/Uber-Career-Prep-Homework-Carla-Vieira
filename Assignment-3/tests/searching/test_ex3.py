@@ -1,7 +1,8 @@
 import unittest
 
+from searching.ex3 import *
 
-class MyTestCase(unittest.TestCase):
+class Ex3Test(unittest.TestCase):
     def test_something(self):
         self.assertEqual(True, False)
 
