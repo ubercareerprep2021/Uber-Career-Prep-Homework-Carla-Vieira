@@ -25,6 +25,10 @@ def is_pair_with_sum2(A, x):
     # As python uses Tim Sort in .sort(), it will take O(n(log(n)), as n = len(arr)
     A.sort()
 
+    # Starting two pointers from the left and right extremities, we will compare the sum of the elements in the
+    # pointer with the target sum. If the current sum is smaller than the target, so it is needed to increase the
+    # sum. As the arr is sorted to increase de sum we shift the left pointer (with the lowest num) to the right. If
+    # the current sum is bigger than target, it do the opposite with the right pointer
     left, right = 0, len(A)-1
 
     while left<right:
