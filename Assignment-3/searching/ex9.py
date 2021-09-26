@@ -10,6 +10,7 @@ Output: 4
 
 # Not using trie. Time complexity: O(n*k). Space complexity: O(1).
 def count_prefix_length2(arr, str, k):
+
     counter = 0
     for word in arr:
         if len(word) < k:
@@ -24,7 +25,7 @@ def count_prefix_length2(arr, str, k):
 
     return counter
 
-
+# Not using trie. Time complexity: O(n*k). Space complexity: O(n*k).
 class TrieNode(object):
 
     def __init__(self, char):
